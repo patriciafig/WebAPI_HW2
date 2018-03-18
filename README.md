@@ -16,7 +16,8 @@ the request.The server should be able to read incoming header and query paramete
 # Requirements
 > 
 - Create a Node.js server that accepts requests and creates responses and host it on Apigee. 
-> -The server should accept GET, POST, PUT and DELETE requests. – Any other requests coming in should be rejected.
+> - The server should accept GET, POST, PUT and DELETE requests. 
+> – Any other requests coming in should be rejected.
 - If the server accepts a request, it should respond with information about the request.
 - The server should respond with the name and value of any query parameters sent in. If no headers or query parameters are sent in, then the response should say so. Some headers are generated automatically, like host and user-agent. It’s fine to have these appear in the response.
  - If the server rejects a request, it should respond with a simple statement saying it doesn’t support the HTTP method.
@@ -38,8 +39,12 @@ the request.The server should be able to read incoming header and query paramete
 # Resources 
 
 > 
-•	http://docs.apigee.com/api-services/content/overview-nodejs-apigee-edge
+http://docs.apigee.com/api-services/content/overview-nodejs-apigee-edge
 - Apigee provides excellent documentation on how to create an application with Node.js.
+
+http://nodejs.org
+
+- Although its possible to finish this assignment only in Apigee, their editor is limited and testing can be cumbersome. It may be helpful to install a local version of Node.js and test there.  Node API documentation can also be found here.
 
 >
 
