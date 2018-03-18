@@ -4,13 +4,14 @@
 
 # Purpose
 
-> - The purpose of this assignment is to start working with Node.js and become more familiar with HTTP requests.
+> 
+- The purpose of this assignment is to start working with Node.js and become more familiar with HTTP requests.
 You will create a standard Node.js server to handle incoming HTTP requests and then respond with information about
 the request. 
-> - The server should be able to read incoming header and query parameters and include this information in the response.
+ 
+- The server should be able to read incoming header and query parameters and include this information in the response.
 The server should also only accept certain incoming requests and block others. You may use any of the standard packages included in Node.js or any third-party packages to complete this assignment.
-
-
+>
 ----------------  
 
 # Requirements
@@ -20,7 +21,8 @@ The server should also only accept certain incoming requests and block others. Y
 
 > - If the server rejects a request, it should respond with a simple statement saying it doesn’t support the HTTP method.
 > - The server should have four different URNs that only accept a given HTTP method, while reject the other methods.
-> - /gets should only accept GET requests while rejecting others.
+> 
+- /gets should only accept GET requests while rejecting others.
 - /posts should only accept POST requests while rejecting others.
 - /puts should only accept PUT requests while rejecting others.
 - /deletes should only accept DELETE requests while rejecting others.
