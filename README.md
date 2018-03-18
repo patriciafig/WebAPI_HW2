@@ -1,6 +1,9 @@
 # WebAPI_HW2
-Purpose
-• The purpose of this assignment is to start working with Node.js and become more familiar with HTTP requests.
+
+--------
+**Purpose**
+
+>The purpose of this assignment is to start working with Node.js and become more familiar with HTTP requests.
 You will create a standard Node.js server to handle incoming HTTP requests and then respond with information about
 the request. The server should be able to read incoming header and query parameters and include this information in the response.
 The server should also only accept certain incoming requests and block others.
