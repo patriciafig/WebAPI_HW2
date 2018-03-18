@@ -1,6 +1,6 @@
 # Assignment 2: Working with Node.js 
 
-** CSCI 3800: Web API Technologies 
+**CSCI 3800: Web API Technologies** 
 
 
 ----------------
