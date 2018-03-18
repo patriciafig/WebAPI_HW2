@@ -16,12 +16,15 @@ the request.The server should be able to read incoming header and query paramete
 # Requirements
 > 
 - Create a Node.js server that accepts requests and creates responses and host it on Apigee. 
+> 
+
 > - The server should accept GET, POST, PUT and DELETE requests. 
 > – Any other requests coming in should be rejected.
+
 - If the server accepts a request, it should respond with information about the request.
 - The server should respond with the name and value of any query parameters sent in. If no headers or query parameters are sent in, then the response should say so. Some headers are generated automatically, like host and user-agent. It’s fine to have these appear in the response.
  - If the server rejects a request, it should respond with a simple statement saying it doesn’t support the HTTP method.
-- The server should have four different URNs that only accept a given HTTP method, while reject the other methods.
+ - The server should have four different URNs that only accept a given HTTP method, while reject the other methods.
 >
 > - /gets should only accept GET requests while rejecting others.
 > - /posts should only accept POST requests while rejecting others.
