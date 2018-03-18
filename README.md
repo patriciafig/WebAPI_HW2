@@ -15,7 +15,7 @@ the request.The server should be able to read incoming header and query paramete
 
 # Requirements
 > 
-- Create a Node.js server that accepts requests and creates responses and host it on Apigee. 
+Create a Node.js server that accepts requests and creates responses and host it on Apigee. 
 > 
 
 > - The server should accept GET, POST, PUT and DELETE requests. 
