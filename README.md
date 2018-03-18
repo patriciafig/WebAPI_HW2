@@ -20,10 +20,10 @@ The server should also only accept certain incoming requests and block others. Y
 
 > - If the server rejects a request, it should respond with a simple statement saying it doesn’t support the HTTP method.
 > - The server should have four different URNs that only accept a given HTTP method, while reject the other methods.
-    > - /gets should only accept GET requests while rejecting others.
-    > - /posts should only accept POST requests while rejecting others.
-    > - /puts should only accept PUT requests while rejecting others.
-    > - /deletes should only accept DELETE requests while rejecting others.
-    > - Any requests made to the base URL (no URN specified) should also be rejected.
+> - /gets should only accept GET requests while rejecting others.
+- /posts should only accept POST requests while rejecting others.
+- /puts should only accept PUT requests while rejecting others.
+- /deletes should only accept DELETE requests while rejecting others.
+> - Any requests made to the base URL (no URN specified) should also be rejected.
 > - Include a Postman project that can shows all the requirements have been met.
 > - This project should include valid requests, as well as requests that fail (sending a POST request to /gets, etc.).
